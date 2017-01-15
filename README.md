@@ -16,7 +16,8 @@
 
 不做任何操作直接`bulid`，我们来看打印台的`log`：
 
-![2.png](http://upload-images.jianshu.io/upload_images/307963-85187e4465203baa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)。
+![2.png](http://upload-images.jianshu.io/upload_images/307963-85187e4465203baa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 这样的结果就证明了我们前面的结论。
 
 ### 源码证明调用时机：
