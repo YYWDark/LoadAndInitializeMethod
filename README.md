@@ -11,8 +11,11 @@
 3.类本身`load method`在分类的`load method`前调用。
  
 我们现在建立4个文件,在每个文件里面添加`load method`，并在`load method`里面打印一句话：
+
 ![1.png](http://upload-images.jianshu.io/upload_images/307963-eb11a2d733b20b6f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 不做任何操作直接`bulid`，我们来看打印台的`log`：
+
 ![2.png](http://upload-images.jianshu.io/upload_images/307963-85187e4465203baa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)。
 这样的结果就证明了我们前面的结论。
 
@@ -21,6 +24,7 @@
 [这里](https://opensource.apple.com/tarballs/objc4/)下载`runtime源码`。这里下载的是`objc4-706.tar.gz`版本。
 dyld 是`the dynamic link editor`的缩写，动态链接器.主要的任务是为了生成可执行文件。
 更多了解可以点击[这里](https://www.gitbook.com/book/leon_lizi/-/details)
+
 1.引导程序初始化：
 ```
 /***********************************************************************
